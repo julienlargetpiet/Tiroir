@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <filesystem>
 
 template <typename T, typename T2> unsigned int match(const std::vector<T> &source, const T2 &ptrn) {
   int cnt = 0;
@@ -40,21 +41,7 @@ bool is_greater_str(std::string &x, std::string &x2,
 };
 
 std::vector<std::string> str_sort_ascend(std::vector<std::string> x,
-                std::vector<char> order_v = {
-                         ' ', '!', '"', '#', '$', '%', '&', 
-                        '\'', '(', ')', '*', '+', ',', '-', 
-                        '.', '/', '0', '1', '2', '3', '4', '5',
-                        '6', '7', '8', '9', ':', ';', '<', '=',
-                        '>', '?', '@', 'A', 'B', 'C', 'D', 'E',
-                        'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                        'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U',
-                        'V', 'W', 'X', 'Y', 'Z', '[', '\\', 
-                        ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e',
-                        'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-                        'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
-                        'v', 'w', 'x', 'y', 'z', '{', '|', '}',
-                        '~'           
-                }) {
+                std::vector<char> order_v) {
   unsigned int i;
   unsigned int i2;
   const unsigned int n = x.size();
