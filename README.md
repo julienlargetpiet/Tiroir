@@ -1,6 +1,6 @@
 # Tiroir
 
-This is an `$ ls` based programm that is usefull when we want to `ls` in a directory where all files share the same prefix and have a suffix that numerically differs.
+This is an `$ ls` based programm that is usefull when we want to `ls` in a directory where all files share the same prefix and have a suffix that numerically differs. (or inversely)
 
 # Example
 
