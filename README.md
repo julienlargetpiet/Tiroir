@@ -1,6 +1,6 @@
 # Tiroir
 
-Implementation of the `ls -v` command.
+Implementation of the `ls -v` command. (based on `ls`)
 
 # Example
 
