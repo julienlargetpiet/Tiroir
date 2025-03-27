@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
-#include <filesystem>
 
 template <typename T, typename T2> unsigned int match(const std::vector<T> &source, const T2 &ptrn) {
   int cnt = 0;
