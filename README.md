@@ -42,8 +42,8 @@ Done
 
 ```
 $ cd bench_dir
-$ bench_dir/ bash benchmark.sh
-$ bench_dir/ time (ls | sort -V)
-$ bench_dir/ time (your_alias)
+bench_dir$ bash benchmark.sh
+bench_dir$ time (ls | sort -V)
+bench_dir$ time (your_alias)
 ```
 
