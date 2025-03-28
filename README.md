@@ -38,4 +38,12 @@ alias your_alias="ls > your_absolute_path/in.txt && ~/./your_absolute_path/a.out
 
 Done
 
+## Benchmark
+
+```
+$ cd bench_dir
+$ bash benchmark.sh
+$ time (ls | sort -V)
+$ time (your_alias)
+```
 
